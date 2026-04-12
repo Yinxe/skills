@@ -10,17 +10,15 @@
 
 ## 安装
 
-通过 GitHub URL 安装本仓库中的技能：
-
 ```bash
-npx skills add https://github.com/INYXIN/skills/tree/main/<技能文件夹>
+npx skills add https://github.com/INYXIN/skills --skill <技能名>
 ```
 
 示例：
 
 ```bash
 # 安装 mimo-tts 技能
-npx skills add https://github.com/INYXIN/skills/tree/main/mimo-tts
+npx skills add https://github.com/INYXIN/skills --skill mimo-tts
 ```
 
 首次使用前请参考各技能的 `SKILL.md` 中关于环境变量的配置说明。
