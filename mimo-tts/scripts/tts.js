@@ -9,7 +9,7 @@ function parseArgs() {
     text: "",
     model: "mimo-v2-tts",
     format: "mp3",
-    voice: "mimo_default",
+    voice: "default_zh",
     output: null,
   };
 
@@ -67,7 +67,8 @@ function parseArgs() {
   }
 
   if (!args.output) {
-    args.output = `output.${args.format}`;
+    const ts = Date.now();
+    args.output = `/tmp/mimo-tts-${ts}.${args.format}`;
   }
 
   return args;
@@ -85,9 +86,9 @@ MiMo TTS 语音合成工具
 可选参数:
   --model, -m <模型>       TTS 模型 (默认: mimo-v2-tts)
   --format, -f <格式>      输出格式 mp3/wav (默认: mp3)
-  --voice <音色>           音色选择 (默认: mimo_default)
+  --voice <音色>           音色选择 (默认: default_zh)
                            可选: mimo_default, default_zh, default_en
-  --output, -o <路径>     输出文件路径 (默认: output.<格式>)
+  --output, -o <路径>     输出文件路径 (默认: /tmp/mimo-tts-<时间戳>.<格式>)
   --help, -h              显示帮助信息
 
 示例:
@@ -138,7 +139,7 @@ function callTTSApi(apiKey, params) {
       ],
       audio: {
         format: params.format,
-        voice: "mimo_default",
+        voice: params.voice,
       },
     });
 
