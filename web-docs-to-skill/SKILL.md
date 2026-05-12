@@ -107,7 +107,7 @@ browser-use get text <heading-index>          # Get specific sections
 
 ```markdown
 ---
-name: <doc-derived-name>
+name: <xxx-docs>  # Must follow xxx-docs pattern (e.g., "vue-docs", "react-docs", "tailwind-docs")
 description: <2-3 sentences about what this skill does and when to use it>
 ---
 
@@ -144,7 +144,7 @@ For `references/*.md` files:
 
 1. **Create the skill directory**:
    ```
-   skill-name/
+   xxx-docs/
    ├── SKILL.md
    └── references/
        ├── concepts.md
@@ -196,9 +196,9 @@ For `references/*.md` files:
 
 ## Output Convention
 
-- Skill name: Derived from documentation title (e.g., "vue-best-practices" from Vue.js docs)
+- Skill name: Must follow `xxx-docs` pattern, derived from documentation title (e.g., "vue-docs" from Vue.js docs, "tailwind-docs" from Tailwind CSS docs)
 - Description: Pushy and specific about when to use this skill
-- File paths: Use `/home/yinxin/.agents/skills/<skill-name>/`
+- Directory: Created at project root as a sibling directory (e.g., `./vue-docs/`)
 - References: Grouped by topic in `references/` directory
 
 ## Testing the Generated Skill
