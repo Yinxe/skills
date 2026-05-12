@@ -134,6 +134,17 @@ git push origin --delete feature/xxx  # 删除远程分支
 
 ```
 skills/
+  blogging/             # 博客相关
+    hexo/
+  desktop/              # 桌面环境
+    gnome-shell-extension-development/
+  docs/                 # 技术文档
+    opencode-docs/
+    opentui-doc/
+  media/                # 多媒体
+    mimo-tts/
+  tooling/              # 工具链
+    web-docs-to-skill/
   skill-name/
     SKILL.md          # Skill 定义文件
     reference/        # 参考文件目录
