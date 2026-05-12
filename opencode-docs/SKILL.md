@@ -1,5 +1,5 @@
 ---
-name: opencode
+name: opencode-docs
 description: OpenCode AI 编码代理中文参考指南。用于在终端、IDE 或 Web 界面中使用 OpenCode 进行 AI 辅助编程、代码审查、自动化任务。当用户询问如何使用 OpenCode、配置代理、设置提供商、集成 GitHub、执行 CLI 命令、自定义工具或排查问题时触发。
 ---
 
