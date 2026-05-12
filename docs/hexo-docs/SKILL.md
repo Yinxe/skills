@@ -1,5 +1,5 @@
 ---
-name: hexo
+name: hexo-docs
 description: Hexo 博客框架技能 - 涵盖安装、配置、写作、部署、主题开发、插件开发。使用场景：创建 Hexo 博客、写作文章、配置主题、部署到 GitHub/GitLab Pages、开发 Hexo 插件。
 ---
 

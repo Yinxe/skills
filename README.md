@@ -4,12 +4,6 @@
 
 ## 已有的技能
 
-### Blogging / 博客
-
-| 技能 | 说明 |
-|------|------|
-| hexo | Hexo 博客框架 — 安装、配置、写作、部署、主题开发、插件开发 |
-
 ### Desktop / 桌面环境
 
 | 技能 | 说明 |
@@ -20,6 +14,7 @@
 
 | 技能 | 说明 |
 |------|------|
+| hexo-docs | Hexo 博客框架 — 安装、配置、写作、部署、主题开发、插件开发 |
 | opencode-docs | OpenCode AI 编码代理中文参考指南 |
 | opentui-doc | OpenTUI 终端 UI 框架文档 |
 
@@ -45,7 +40,7 @@ npx skills add https://github.com/Yinxe/skills --skill <技能名>
 
 ```bash
 # 安装 mimo-tts 技能
-npx skills add https://github.com/Yinxe/skills --skill media/mimo-tts
+npx skills add https://github.com/Yinxe/skills --skill mimo-tts
 ```
 
 # 选择多个技能同时安装

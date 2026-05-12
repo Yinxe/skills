@@ -134,13 +134,12 @@ git push origin --delete feature/xxx  # 删除远程分支
 
 ```
 skills/
-  blogging/             # 博客相关
-    hexo/
-  desktop/              # 桌面环境
-    gnome-shell-extension-development/
   docs/                 # 技术文档
+    hexo-docs/
     opencode-docs/
     opentui-doc/
+  desktop/              # 桌面环境
+    gnome-shell-extension-development/
   media/                # 多媒体
     mimo-tts/
   tooling/              # 工具链
